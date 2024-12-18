@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabor a Pastel</title>
+  <link rel="stylesheet" href="styles.css">
+  
+  <style>
+  @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Yatra+One&display=swap');
+  </style>
+</head>
+<body>
+  
+  <header class="header-landing" id="inicio">
+    <div class="wrap-logo">
+      <img src="img/icotorta.png" alt="" class="logo-header">
+      <a href="index.html" class="title">Sabor a Pastel</a>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <div class="wrap-hero-section">
+      <h1>Sabor a Pastel</h1>
+      <p>Somos la marca que ha endulzado más momentos en los hogares peruanos, la panadería y repostería con mayor presencia a nivel mercado, comprometidos en hacer sentir a nuestros invitados como en casa para compartir con ellos el sabor de la alegría, consentir a las personas y poniendo el toque humano en cada producto y experiencia.</p>
+      <div class="wrap-cta">
+        <a href="#servicios" class="cta-a">Nuestros Productos</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section logos-section">
+    <div class="wrap-logos-section">
+      <img src="img/alto.png" alt="" class="logo-brand">
+      <p>Alto en Azucar</p>
+      <img src="img/cora.png" alt="" class="logo-brand">
+      <p>Garantía de Satisfacción</p>
+      <img src="img/servi.png" alt="" class="logo-brand">
+      <p>Servicio al cliente</p>
+      <img src="img/pago.png" alt="" class="logo-brand">
+      <p>Pago seguro</p>
+    </div>
+  </section>
+
+  <section class="section servicios-section" id="servicios">
+    <div class="wrap-title-section">
+      <h2>Nuestros Productos</h2>
+    </div>
+
+    <div class="wrap-servicios-section">
+      <a href="#contactanos" class="item-servicios-section">
+        <img src="img/torta1.jpg" alt="">
+          <p>Torta de Fresa</p>
+        </img>
+      </a>
+      <a href="#contactanos" class="item-servicios-section">
+        <img src="img/pastel.jpg" alt="">
+          <p>Pastel de Naranja</p>
+        </img>
+      </a>
+      <a href="#contactanos" class="item-servicios-section">
+        <img src="img/torta2.jpg" alt="">
+          <p>Pastel Mixto de Sabores</p>
+        </img>
+      </a>
+      <a href="#contactanos" class="item-servicios-section">
+        <img src="img/boda.jpg" alt="">
+          <p>Torta de Limón con Merengue</p>
+        </img>
+      </a>
+      <a href="#contactanos" class="item-servicios-section">
+        <img src="img/choco.jpg" alt="">
+          <p>Torta de Chocolate</p>
+        </img>
+      </a>
+      <a href="#contactanos" class="item-servicios-section">
+        <img src="img/helado.jpg" alt="">
+          <p>Torta de Tres Leches</p>
+        </img>
+      </a>
+      <a href="#contactanos" class="item-servicios-section">
+        <img src="img/pastel2.jpg" alt="">
+          <p>Torta de Mousse de Chocolate</p>
+        </img>
+      </a>
+      <a href="#contactanos" class="item-servicios-section">
+        <img src="img/queque.jpg" alt="">
+          <p>Cupcakes de Chocolate</p>
+        </img>
+      </a>
+    </div>
+  </section>
+
+  <section class="section two-column-section" id="nosotros">
+    <div class="wrap-title-section">
+      <h2>Acerca de Nosotros</h2>
+    </div>
+
+    <div class="wrap-two-column">
+      <div class="wrap-img_two-column">
+        <img src="img/pedido.jpg" alt="">
+      </div>
+
+      <div class="wrap-img_two-column">
+        <div class="wrap-text-column">
+          <h3>Nos caracterizamos</h3>
+          <p>En nuestra pastelería "SABOR A PASTEL", ofrecemos una amplia variedad de tortas y postres personalizados, adaptados a tus gustos y necesidades. Utilizamos ingredientes frescos y de alta calidad para garantizar un sabor delicioso y una presentación impecable. Ya sea para bodas, cumpleaños o cualquier evento especial, creamos diseños únicos y entregamos puntualmente. Además, tenemos opciones sin gluten, veganas y para dietas especiales.</p>
+
+          <p>Hoy en día somos un ícono de la repostería en Perú por nuestros clásicos pasteles y panadería de alta calidad, innovación continua y servicio excepcional. Gracias a ello nos hemos ganado el corazón y preferencia de cada uno de nuestros invitados.</p>
+
+          <p>Sabor a Pastel, pasión por la repostería.</p>
+
+          <p>Contáctanos para hacer de tu celebración un momento inolvidable con nuestras deliciosas creaciones.</p>
+
+          <div class="wrap-cta">
+            <a href="#contactanos" class="cta-a">Hacer Pedido</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section two-column-section form" id="contactanos">
+
+    <div class="wrap-title-section">
+      <h2>Contacta a "Sabor a Pastel"</h2>
+    </div>
+
+    <div class="wrap-two-column">
+
+      <div class="wrap-img_two-column3">
+        <div class="wrap-text-column">
+          <h3>Contactanos</h3>
+
+          <form onsubmit="mostrarMensaje(event)" action="procesar_formulario.php" method="post" class="form" >
+            <input type="text" name="nombre" id="nombre" required="" placeholder="Nombre y Apellidos">
+            <br><br>
+            
+            <input type="numero" name="numero" id="numero" required="" placeholder="Telefono">
+            <br><br>
+
+            <input type="email" name="email" id="email" required="" placeholder="Correo Electronico">
+            <br><br>
+            
+            <textarea name="mensaje" id="mensaje" rows="4" cols="40" required="" placeholder="Dejanos una descripcion detallada de como deberia ser tu pedido, en un momento te respondemos a tu correo o numero. Somos Sabor a Pastel. Gracias por la confianza."></textarea>
+            <br><br>
+            
+            <input type="submit" value="Enviar" class="cta-a">
+          </form>
+
+        </div>
+      </div>
+
+      <div class="wrap-img_two-column">
+        <img src="img/pastelero.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer-section">
+    <div class="wrap-footer-section">
+      <div class="wrap-social-logos">
+        <ul>
+          <li>
+            <a href="">
+              <img src="img/ico-face.png" alt="" class="social-logo">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/ico-twitter.png" alt="" class="social-logo">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/ico-tik-tok.png" alt="" class="social-logo">
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="img/ico-instagram.png" alt="" class="social-logo">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-footer-section">
+      <div class="wrap-menu-footer-section">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#nosotros">Quienes Somos</a></li>
+          <li><a href="#contactanos">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-footer-section">
+      <div class="footer-creds">
+        <p>Copyright © 2024 - Sabor a Pastel - Todos los derechos reservados.</p>
+      </div>
+    </div>
+    <button class="scroll-to-top" id="scrollToTopBtn">Subir</button>
+  </footer>
+  <script src="script.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
